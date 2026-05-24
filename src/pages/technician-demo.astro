@@ -1,0 +1,11 @@
+---
+import SiteLayout from "../layouts/SiteLayout.astro";
+import { TechnicianDemo } from "../components/pages/TechnicianDemo";
+---
+<SiteLayout
+  title="Technician demo — Dunam"
+  description="Try the Dunam technician inspection flow — scan a QR, run the NFPA 10 checklist, sign, and generate a certificate."
+  canonicalPath="/technician-demo"
+>
+  <TechnicianDemo client:load />
+</SiteLayout>

@@ -1,0 +1,11 @@
+---
+import SiteLayout from "../layouts/SiteLayout.astro";
+import { Login } from "../components/pages/Login";
+---
+<SiteLayout
+  title="Login — Dunam"
+  description="Sign in to your Dunam inspection dashboard."
+  canonicalPath="/login"
+>
+  <Login client:load />
+</SiteLayout>
