@@ -1,4 +1,5 @@
 ---
+import Analytics from "../components/Analytics.astro";
 // src/layouts/SiteLayout.astro
 import "../styles/global.css";
 import { Header } from "../components/site/Header";
@@ -49,6 +50,7 @@ const hasCustomHead = Astro.slots.has("head");
         <meta name="twitter:description" content={description} />
       </>
     )}
+    <Analytics />
   </head>
   <body>
     <div class="min-h-screen flex flex-col">
