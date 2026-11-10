@@ -11,6 +11,10 @@ custom_domains = [
     "dunam.co",
 ]
 
+[index]
+indexnow_key = "143fd4986e39afcc8631de15c9f3b731"
+indexnow_enabled = true
+
 [stack]
 framework = "astro"
 
